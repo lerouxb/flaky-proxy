@@ -4,8 +4,8 @@
   "description": "An http and websocket proxy that allows you to mess with websockets",
   "main": "index.js",
   "scripts": {
-    "test": "npm run lint"
-    "lint": "lab -f -d -L"
+    "test": "npm run lint",
+    "lint": "lab -f -d -L lib"
   },
   "author": "Le Roux Bodenstein",
   "license": "ISC",
