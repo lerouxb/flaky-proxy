@@ -1,0 +1,19 @@
+{
+  "name": "flaky-proxy",
+  "version": "0.0.0",
+  "description": "An http and websocket proxy that allows you to mess with websockets",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint"
+    "lint": "lab -f -d -L"
+  },
+  "author": "Le Roux Bodenstein",
+  "license": "ISC",
+  "devDependencies": {
+    "@hapi/lab": "^24.0.0"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "lodash": "^4.17.20"
+  }
+}
